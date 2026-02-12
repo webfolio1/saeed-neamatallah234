@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - Page Not Found | saeed neamatallah</title>
+  <link rel="stylesheet" href="css/bundle.css">
+  <style>
+    .error-page {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+    }
+    .error-code {
+      font-size: 8rem;
+      font-weight: 800;
+      background: var(--gradient-primary);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      line-height: 1;
+    }
+    .error-title {
+      font-size: 2rem;
+      margin: 1rem 0;
+    }
+    .error-message {
+      color: var(--color-text-muted);
+      margin-bottom: 2rem;
+    }
+    .error-btn {
+      display: inline-block;
+      padding: 1rem 2rem;
+      background: var(--color-primary);
+      color: white;
+      text-decoration: none;
+      border-radius: var(--radius-lg);
+      transition: transform 0.3s ease;
+    }
+    .error-btn:hover {
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body data-theme="light" data-skin="organic">
+  <main class="error-page">
+    <div class="error-content">
+      <div class="error-code">404</div>
+      <h1 class="error-title">Page Not Found</h1>
+      <p class="error-message">The page you're looking for doesn't exist or has been moved.</p>
+      <a href="/" class="error-btn">Back to Home</a>
+    </div>
+  </main>
+  <script src="js/bundle.js" defer></script>
+</body>
+</html>
